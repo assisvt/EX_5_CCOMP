@@ -31,7 +31,7 @@ def dois_valores(v1, v2):
     return multiplicacao
 
 if __name__ == '__main__':
-    v1 = int(input('Digite o primeiro valor: '))
-    v2 = int(input('Digite o segundo valor: '))
-    multiplicacao = dois_valores(v1, v2)
-    print('A multiplicação dos dois valores digitados é:', multiplicacao)
+    valor1 = int(input('Digite o primeiro valor: '))
+    valor2 = int(input('Digite o segundo valor: '))
+    c_multiplicacao = dois_valores(valor1, valor2)
+    print('A multiplicação dos dois valores digitados é:', c_multiplicacao)
